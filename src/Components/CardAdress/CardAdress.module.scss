@@ -1,23 +1,32 @@
 .CardAdress_Spacing {
-    padding-left: 25px;
-    padding-right: 95px;
     margin-top: 42px;
 }
 .CardAdress {
+    width: 320px;
     background-color: #FFF;
     padding: 15px;
     border-radius: 20px;
     box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 20px;
+    @media (max-width: 400px) {
+        width: 100%;
+    }
 }
 .CardAdress_Bgr {
     background: url(../../background/CardAdress.jpg);
     background-size: cover;
     background-position: center center;
-    width: calc(100% + 12px);height: 125px;
+    width: calc(100% + 12px);
+    height: 125px;
     border-radius: 18px;
+    @media (max-width: 1200px) {
+        width: 100%;
+    }
 }
 .CardAdress_Content {
     padding: 4px;
+    @media (max-width: 1200px) {
+        padding: 10px;
+    }
     span:nth-child(1) {
         color: #5374ff;
         font-size: 21px;

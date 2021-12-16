@@ -1,5 +1,4 @@
 .CardArtist_Spacing {
-    padding-right: 55px;
     margin-top: 45px;
 }
 .CardArtist {
@@ -13,11 +12,14 @@
     background: url(../../background/CardArtist.jpg);
     background-size: cover;
     background-position: center center;
-    height: 210px;width: 200px;
+    height: 210px;width: 100%;
     border-radius: 10px;
 }
 .CardArtist_Infor {
-    padding: 15px 12px 5px 10px;
+    padding: 15px 15px 5px 5px;
+    @media ( max-width: 360px ) {
+        padding: 10px 0px 0px;
+    }
     h3 {
         font-size: 24px;
         font-weight: 500;
@@ -48,7 +50,7 @@
             font-size: 23px;
             font-weight: 500;
             display: block;
-            text-align: left;
+            text-align: center;
             color: #333;
         }
     }
@@ -58,10 +60,16 @@
     margin-bottom: 0px;
     li {
         width: auto;
+        @media (min-width: 1200px) {
+            margin: 0 10px 0 0;
+        }
+        @media ( max-width: 384px ) {
+            width: 100%;
+        }
     }
     button {
-        width: 120px;
-        height: 40px;
+        width: 140px;
+        height: 45px;
         border: 1.5px solid;
         outline: none;
         font-size: 12px;
@@ -71,6 +79,11 @@
         border-color: #bec0c2;
         text-align: center;
         transition: .3s ease;
+        @media ( max-width: 384px ) {
+            width: 100%;
+            height: 45px;
+            margin-bottom: 10px;
+        }
     }
     button:hover {
         background-color: #5374ff;

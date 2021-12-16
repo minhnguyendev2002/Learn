@@ -5,13 +5,13 @@ export default function CardArtist() {
 
     return (
         <>
-            <div className={ `col-8 ${ Style.CardArtist_Spacing }` }>
+            <div className={ `col-12 col-md-6 col-lg-8 ${ Style.CardArtist_Spacing }` }>
                 <div className={ Style.CardArtist }>
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col-12 col-xl-5">
                             <div className={ Style.CardArtist_Bgr }></div>
                         </div>
-                        <div className="col-7">
+                        <div className="col-12 col-xl-7">
                             <div className={ Style.CardArtist_Infor }>
                                 <h3>Alex Morrison</h3>
                                 <span>Senior Developer</span>
@@ -29,7 +29,7 @@ export default function CardArtist() {
                                         <span>8.9</span>
                                     </li>
                                 </ul>
-                                <ul className={ `d-flex justify-content-between ${ Style.CardArtist_ButtonList }` }>
+                                <ul className={ `d-flex flex-wrap justify-content-around ${ Style.CardArtist_ButtonList }` }>
                                     <li><button>Chat</button></li>
                                     <li><button>Follow</button></li>
                                 </ul>

@@ -14,7 +14,7 @@ function App() {
         <CardBlogLagre />
         <CardIcon />
         <CardBlog />
-        <div className="col-9 spacing">
+        <div className="col-12 col-xl-9 spacing">
           <div className="row">
             <CardSearch />
             <CardAdress />

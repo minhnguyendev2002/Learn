@@ -1,0 +1,19 @@
+.App {
+  position: relative;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+body {
+  background-color: #e8eaee;
+}
+.spacing {
+  padding: 0 95px 0px 40px;
+}

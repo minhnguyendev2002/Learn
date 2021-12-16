@@ -1,0 +1,44 @@
+.CardSearch_Spacing {
+    padding-right: 20px;
+    margin-top: 42px;
+}
+.CardSearch_Search {
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 25px 22px;
+    box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 20px;
+    input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 20px 12px;
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: #f2f5f8;
+    }
+    button {
+        outline: none;
+        border-radius: 10px;
+        width: 57px;height: 57px;
+        background-color: #5374ff;
+        color: #fff;
+        position: absolute;
+        right: 0px;
+        border: 2px solid #5374ff;
+        transition: .3s ease;
+    }
+    button:hover {
+        background-color: #FFF;
+        color: #5374ff;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+        margin-bottom: 5px;
+        li {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}

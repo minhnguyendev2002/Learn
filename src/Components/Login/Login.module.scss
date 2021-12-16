@@ -1,0 +1,61 @@
+.Login {
+    background-color: #FFF;
+}
+.Login_Input_Type {
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin: 10px;
+    input {
+        border: none;
+        outline: none;
+        padding: 5px 10px;
+        flex: 1;
+        font-size: 14px;
+    }
+    label {
+        position: absolute;
+        left: 55px;
+        top: 18px;
+        font-size: 14px;
+        pointer-events: none;
+    }
+    span {
+        width: 35px;height: 35px;
+        text-align: center;
+        i {
+            line-height: 35px;
+        }
+    }
+}
+.Login_Remember {
+    margin: 10px 0px;
+    span {
+        width: 20px;height: 20px;
+        background-color: #0071ff;
+        transform: rotate(45deg);
+        border-radius: 6px;
+        cursor: pointer;
+        i {
+            color: #fff;
+            font-size: 10px;
+            transform: rotate(-45deg);
+            line-height: 25px;
+            position: relative;
+            top: -4px;
+            left: 0px;
+        }
+    }
+    p {
+        flex:1;
+        padding: 0px 0px 0px 10px;
+        margin: 0;
+    }
+}
+.Login_Button {
+    border: none;
+    outline: none;
+    color: #FFF;
+    background-color: #0071ff;
+    padding: 15px 50px;
+}

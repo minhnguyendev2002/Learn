@@ -1,0 +1,38 @@
+.Icon_List {
+    ul {
+        width: 50%;
+        background-color:  #FFFFFF;
+        margin: 0 auto 0 40px; 
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 20px;
+
+        li {
+            padding: 10px 0 10px 0px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            p {
+                margin: 0px 10px 0;
+                font-size: 12px;
+                font-weight: 500;
+            }
+            span {
+                display: block;
+                border-radius: 8px;
+                width: 40px; height:40px;
+                background-color: #ecf0f3;
+                align-items: center;
+                text-align: center;
+                transition: .3s ease;
+                i {
+                    line-height: 40px;
+                }
+            }
+        }
+        li:hover span {
+            background-color:#5374ff;
+            color: #FFF;
+        }
+    }
+}

@@ -6,6 +6,8 @@ import CardBlogLagre from './Components/CardBlogLagre/CardBlogLagre';
 import CardIcon from './Components/CardIcon/CardIcon';
 import CardOffer from './Components/CardOffer/CardOffer';
 import CardSearch from './Components/CardSearch/CardSearch';
+import Login from './Components/Login/Login';
+import Upload from './Components/UploadImage/UploadImage';
 
 function App() {
   return (
@@ -21,6 +23,10 @@ function App() {
             <CardArtist />
             <CardOffer />
           </div>
+        </div>
+        <div className="col-12">
+          <Login />
+          <Upload />
         </div>
       </div>
     </div>

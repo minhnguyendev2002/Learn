@@ -1,0 +1,15 @@
+.CardFilter {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 26px;
+    .CardFilter_Option li {
+        width: calc(100% / 3);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 20px 0px;
+        cursor: pointer;
+    }
+}

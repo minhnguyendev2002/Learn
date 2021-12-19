@@ -7,7 +7,12 @@
   margin: 0px;
   box-sizing: border-box;
 }
+input, button {
+  border: none;
+  outline: none;
+}
 ul {
+  margin: 0px;
   padding: 0px;
   list-style: none;
 }

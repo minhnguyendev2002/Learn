@@ -8,10 +8,10 @@
 }
 .Login_Input_Type {
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     input {
         outline: none;
-        width: 220px;
+        width: 223px;
         height: 65px;
         padding: 30px 0px 10px 42px;
         background-color: transparent;
@@ -65,13 +65,13 @@
         cursor: pointer;
         transition: .2s ease;
         i {
-            color: #fff;
-            font-size: 10px;
-            transform: rotate(-45deg);
-            line-height: 25px;
             position: relative;
-            top: -5px;
-            left: 1px;
+            transform: rotate(-45deg);
+            color: #fff;
+            font-size: 8px;
+            line-height: 25px;
+            top: -8px;
+            left: 0px;
         }
     }
     span:hover {

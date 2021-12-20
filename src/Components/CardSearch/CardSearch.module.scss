@@ -3,9 +3,9 @@
     margin-top: 42px;
 }
 .CardSearch_Search {
+    padding: 25px 20px;
     border-radius: 20px;
     background-color: #FFF;
-    padding: 25px 22px;
     box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 20px;
     input {
         border: none;
@@ -32,11 +32,14 @@
         color: #5374ff;
     }
     ul {
-        margin-top: 16px;
-        margin-bottom: 5px;
+        max-width: 100%;
+        margin-top: 20px;
         li {
             font-size: 14px;
             font-weight: 500;
+            margin-right: 20px;
+            cursor: pointer;
+            white-space: nowrap;
         }
     }
 }

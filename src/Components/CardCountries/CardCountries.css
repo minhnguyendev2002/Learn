@@ -4,3 +4,6 @@
 .select_option span {
     display: inline-block !important;
 }
+.scroll_bar {
+    overflow-y: scroll;
+}

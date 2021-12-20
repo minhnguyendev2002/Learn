@@ -16,9 +16,29 @@ ul {
   padding: 0px;
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
 body {
   background-color: #e8eaee;
 }
 .container {
   max-width: 1250px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+	background-color: #fff;
+}
+::-webkit-scrollbar-track {
+	background-color: #edeae8; 
+  border-radius: 35px;
+}
+::-webkit-scrollbar-thumb {  
+  border-radius: 35px; 
+  background: #0071ff; 
 }

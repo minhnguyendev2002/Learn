@@ -9,7 +9,7 @@ export default function CardBlog() {
                 <div className={ Style.Card_Blog}>
                     <div className={ Style.Card_Blog_Image }></div>
                     <div className={ Style.Card_Blog_Content }>
-                        <h4>Content Marketing has always been evaluated as one been evaluated </h4>
+                        <a href="/"><h4>Content Marketing has always been evaluated as one been evaluated </h4></a>
                         <div className={`d-flex align-items-center ${ Style.Card_Blog_author }`}>
                             <img src="../../images/avatar.jpg" alt="/" />
                             <div>

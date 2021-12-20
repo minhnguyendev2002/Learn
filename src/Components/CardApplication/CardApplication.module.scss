@@ -1,7 +1,7 @@
 .CardApplication {
     width: 265px;
     background-color: #FFFFFF;
-    padding: 24px 20px;
+    padding: 14px 20px;
     border-radius: 28px;
 }
 .CardApplication_Search {
@@ -38,11 +38,12 @@
     }
 }
 .CardApplication_Option {
+    padding: 15px 0px 0px;
     li {
         position: relative;
-        padding: 12.5px 16px;
+        padding: 16px 19px;
         display: flex;
-        border-radius: 20px;
+        border-radius: 16px;
         cursor: pointer;
         transition: .2s ease;
         img {
@@ -55,22 +56,25 @@
             font-weight: 600;
         }
         span {
-            display: none;
-            position: absolute;
-            right: -7px;
-            width: 20px;height: 18px;
-            background-color: #0071ff;
-            border-radius: 8px;
+            width: 18px; height: 18px;
+            background-color: #FFFFFF;
+            border: 1.5px solid #e3e3e3;
+            border-radius: 6px;
             cursor: pointer;
             transition: .2s ease;
+            transform: rotate(45deg);
             i {
                 position: relative;
+                transform: rotate(-45deg);
                 color: #fff;
                 font-size: 8px;
                 line-height: 25px;
-                top: -5px;
-                left: 6px;
+                top: -6px;
+                left: 4px;
             }
+        }
+        span:hover {
+            transform: scale(1.2) rotate(45deg);
         }
     }
 }

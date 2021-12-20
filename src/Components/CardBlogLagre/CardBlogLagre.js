@@ -14,7 +14,7 @@ export default function Chart() {
                         </div>
                         <div className="col-12 col-lg-6">
                             <div className={ Style.blog_content }>
-                                <h2>Content Marketing has always been evaluated as one of the online marketing strategies...</h2>
+                                <a href="/"><h2>Content Marketing has always been evaluated as one of the online marketing strategies...</h2></a>
                                 <p>Instead of using forms of advertising your products/services, you should provide really useful content to customers, thereby persuading/solving the problems and problems that are.</p>
                                 <ul className="d-flex justify-content-between align-items-center">
                                     <li className={`d-flex align-items-center ${ Style.blog_author }`}>

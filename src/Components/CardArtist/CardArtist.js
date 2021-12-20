@@ -2,6 +2,13 @@ import React from "react";
 import Style from './CardArtist.module.scss';
 
 export default function CardArtist() {
+    let inforArtists = [
+        {
+            articles: 34,
+            follower: 2600,
+            rating: 9.6
+        }
+    ]
 
     return (
         <>
@@ -18,15 +25,15 @@ export default function CardArtist() {
                                 <ul className={ `d-flex align-items-center text-center ${ Style.CardArtist_Param }` }>
                                     <li>
                                         <p>Articles</p>
-                                        <span>34</span>
+                                        <span>{ inforArtists[0].articles }</span>
                                     </li>
                                     <li>
                                         <p>Followers</p>
-                                        <span>980</span>
+                                        <span>{ inforArtists[0].follower > 1000 ? `${inforArtists[0].follower / 1000}K` : inforArtists[0].follower }</span>
                                     </li>
                                     <li>
                                         <p>Rating</p>
-                                        <span>8.9</span>
+                                        <span>{ inforArtists[0].rating }</span>
                                     </li>
                                 </ul>
                                 <ul className={ `d-flex flex-wrap justify-content-around ${ Style.CardArtist_ButtonList }` }>

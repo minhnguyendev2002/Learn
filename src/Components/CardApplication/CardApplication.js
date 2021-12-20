@@ -1,5 +1,14 @@
 import React from "react";
 import Style from './CardApplication.module.scss';
+import $ from 'jquery';
+import './CardApplication.css';
+
+$(document).ready(function() {
+    $(".Application_select li").click(function() {
+        $(".Application_select li").removeClass("Select");
+        $(this).addClass("Select");
+    })
+})
 
 export default function CardApplication() {
 
@@ -11,7 +20,7 @@ export default function CardApplication() {
                         <input type="text" placeholder="Search applicationes"/>
                         <span className="position-absolute d-block text-center"><i className="fas fa-search"></i></span>
                     </div>
-                    <ul className={ `m-0 ${Style.CardApplication_Option}` }>
+                    <ul className={ `position-relative ${Style.CardApplication_Option} Application_select` }>
                         <li>
                             <span className="text-center="><i className="fas fa-check"></i></span>
                             <p>Framer</p>
@@ -29,9 +38,6 @@ export default function CardApplication() {
                             <p>Figma</p>
                         </li>
                     </ul>
-                    <span>
-
-                    </span>
                 </div>
             </div>
         </>

@@ -1,12 +1,13 @@
 .CardCountries {
-    width: 265px;
+    width: 275px;
     background-color: #FFFFFF;
-    padding: 24px 20px;
+    padding: 24px 0px 24px 20px; 
     border-radius: 28px;
+    padding-right: 10px;
 }
 .CardCountries_Search {
     input {
-        width: 225px;
+        width: 235px;
         height: 50px;
         padding: 10px 0px 10px 54px;
         border-radius: 20px;
@@ -38,13 +39,15 @@
     }
 }
 .List_Country {
+    height: 180px;
     li {
         position: relative;
-        padding: 12.5px 16px;
+        padding: 12.5px 0px 12.5px 16px;
         display: flex;
-        border-radius: 20px;
+        margin-right: 10px;
+        border-radius: 16px;
         cursor: pointer;
-        transition: .2s ease;
+        transition: 0.2s ease;
         img {
             width: 20px; height: 20px;
             border-radius: 50%;
@@ -98,7 +101,7 @@
             border: 2px solid #e3e3e3;
             width: 50px; height: 50px;
             border-radius: 50%;
-            margin-right: 4px;
+            margin-right: 10px;
             background-color: #FFF;
             transition: .2s ease;
             &:hover {

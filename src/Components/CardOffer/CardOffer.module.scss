@@ -14,7 +14,9 @@
         font-size: 18px;
         transition: .3s ease;
         box-shadow: rgba(168, 168, 168, 0.5) 0px 1px 20px;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     button:hover {
         background-color: #5374ff;
@@ -27,6 +29,9 @@
     background-color: #FFF;
     padding: 15px 10px;
     border-radius: 20px;
+    ul {
+        max-height: 140px;
+    }
     li {
         background-color: #f2f5f8;
         color: #6b6b6b;

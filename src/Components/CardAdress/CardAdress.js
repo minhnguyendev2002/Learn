@@ -13,7 +13,7 @@ export default function CardAdress() {
                         </div>
                         <div className="col-12 col-lg-6">
                             <div className={ Style.CardAdress_Content }>
-                                <span><i className="far fa-play-circle"></i></span>
+                                <a href="/"><span><i className="far fa-play-circle"></i></span></a>
                                 <h3>An Inspiring Short Flim</h3>
                                 <span><i className="fas fa-eye"></i>80,989</span>
                             </div>

@@ -1,7 +1,13 @@
 import React from "react";
 import Style from './CardSearch.module.scss';
+import './CardSearch.css';
 
 export default function CardSearch() {
+    let listTag = ["Politics","Sciense","Movies","Technology","Covid-19","Alex-Gru","GenZ","300","Trump","SIA","Me",]
+
+    let renderUI = listTag.map((item, index) => {
+        return <li key={ index }>#{item}</li>
+    })
 
     return (
         <>
@@ -11,11 +17,8 @@ export default function CardSearch() {
                         <input type="text" placeholder="Search for articles" />
                         <button><span><i className="fas fa-search"></i></span></button>
                     </div>
-                    <ul className="d-flex justify-content-between flex-wrap">
-                        <li>#Politics</li>
-                        <li>#Sciense</li>
-                        <li>#Movies</li>
-                        <li>#Technology</li>
+                    <ul className={ listTag.length > 5 ? "d-flex flex-nowrap scrollbar" : "d-flex flex-nowrap" }>
+                        { renderUI }
                     </ul>
                 </div>
             </div>
